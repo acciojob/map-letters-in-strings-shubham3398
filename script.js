@@ -6,7 +6,7 @@ function mapLetter(s) {
 		if(!map[s.charAt(i)]) {
 			map[s.charAt(i)] = [i];
 		}else{
-			map[s.charSt(i)].push(i);
+			map[s.charAt(i)].push(i);
 		}
 	}
 
